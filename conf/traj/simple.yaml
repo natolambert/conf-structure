@@ -1,0 +1,9 @@
+policy:
+  params:
+    traj:
+      clazz: mbrl.trajectories.SimpleProp
+      params:
+        return_trajectories: false
+        particles: 20
+        # batch size is num_trajectories * batch_multiplier
+        batch_multiplier: 10
